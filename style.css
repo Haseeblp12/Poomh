@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #ffebf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.gift-box {
+    font-size: 24px;
+    background: #ff4081;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gift-box:active {
+    transform: scale(1.1);
+}
+
+.message {
+    display: none;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+#confetti {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
